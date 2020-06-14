@@ -1,0 +1,67 @@
+/* CSS for -> Gallery, About Us, Contact Us */
+
+
+/* Gallery */
+.gallery ul {
+  list-style: none;
+}
+
+.gallery li {
+  display: inline;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.gallery img {
+  width: 28%;
+  height: 30%;
+}
+
+.gallery img:hover {
+  border-radius: 10px;
+}
+
+/* About US */
+.about p {
+  background-color: lightgrey;
+  color: white;
+  text-align: justify;
+  min-height: 250px;
+  font-family: Arial;
+  font-size: 30px;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+/* Contact US */
+.contact {
+  padding-top: 20px;
+}
+
+.contact ul {
+  padding-left: 28%;
+  list-style: none;
+}
+
+.contact li {
+  display: inline-block;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+  padding-right: 50px;
+  text-align: center;
+}
+
+.contact p {
+  padding: 15px;
+  font-size: 30px;
+  background-color: lightgrey;
+  color: white;
+  min-height: 200px;
+}
+
+.contact ul img {
+  margin-left: 150%;
+}
